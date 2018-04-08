@@ -1,0 +1,4 @@
+#!/bin/sh
+
+env JEKYLL_ENV=production jekyll build
+scp -r _site/* csa@nuweb2.neu.edu:~

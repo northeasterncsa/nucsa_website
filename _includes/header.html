@@ -1,0 +1,29 @@
+{% include google_tag_manager.html %}
+
+<!-- Header -->
+  <header id="header" class="{{ include.class }}">
+    <h1 id="logo"><a href="{{ site.baseurl }}/">NUCSA</span></a></h1>
+    <nav id="nav">
+      <ul>
+        {% if site.data.site_nav.top_nav[0] %}
+          {% for item in site.data.site_nav.top_nav %}
+            {% if item.subfolderitems[0] %}
+              {% assign nav_urls = item.subfolderitems | map: 'url' %}
+              <li class="submenu{% if nav_urls contains page.url %} current{% endif %}">
+                <a href>{{ item.title }}</a>
+                <ul>
+                  {% for entry in item.subfolderitems %}
+                    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li{% if item.url == page.url %} class="current"{% endif %}>
+                <a href="{{ item.url }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.page }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </nav>
+  </header>

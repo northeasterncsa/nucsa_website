@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="left-sidebar">
+
+    <div id="page-wrapper">
+      {% include header.html %}
+
+      <article id="main">
+
+        <header class="special container">
+          {%- if page.icon_class -%}<span class="icon fa-{{ page.icon_class }}"></span>{%- endif -%}
+          <h2>All Executive Boards</h2>
+        </header>
+
+        <section class="wrapper style4 container">
+
+          <div class="row 150%">
+            <div class="12u 12u(narrower)">
+              <!-- Sidebar -->
+                <center>
+                  <div id="quote" class="content">
+                    <header>
+                      <h3><span class="icon fa-quote-left"></span>Because history &amp; its extraordinary performers should not be forgotten<span class="icon fa-quote-right"></span></h3>
+                    </header>
+                    <footer id="quoted" style="display:none;text-align:right;">
+                      <p><i>Cung Tran, 2014</i></p>
+                    </footer>
+                  </div>
+                </center>
+            </div>
+          </div>
+
+          {% for eboard in site.eboards reversed %}
+            <div class="row 150%">
+              <div class="4u 12u(narrower)">
+                
+                <!-- Sidebar -->
+                  <div class="sidebar">
+                    <section>
+                      <span href="#" class="image featured logo">
+                        <img src="{% if eboard.image %}{{ site.image_dir }}/eboard/{{ eboard.year }}/{{ eboard.image }}{% else %}{{ site.image_dir }}/common/nucsa_logo.png{% endif %}" alt="{{ eboard.year }}">
+                      </span>
+                      <footer>
+                        <ul class="buttons">
+                          <li><a href="{{ site.baseurl }}{{ eboard.url }}" class="button small">See Eboard</a></li>
+                        </ul>
+                      </footer>
+                    </section>
+                  </div>
+
+              </div>
+              <div class="8u 12u(narrower)">
+                
+                <!-- Content -->
+                  <div class="content">
+                    <section>
+                      <header>
+                        <h3>{{ eboard.year }} - {{ eboard.year | plus: 1 }} Executive Board</h3>
+                      </header>
+                      <p>
+                        {% for member in eboard.members %}
+                          <b>{{ member.position }}:</b> {{ member.name }}<br />
+                        {% endfor %}
+                      </p>
+                    </section>
+                  </div>
+  
+              </div>
+            </div>
+          {% endfor %}
+
+        </section>
+
+      </article>
+
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>

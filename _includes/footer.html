@@ -1,0 +1,25 @@
+<!-- Footer -->
+  <footer id="footer">
+
+    <ul class="icons">
+      {%- if site.twitter_username -%}<li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>{%- endif -%}
+      {%- if site.facebook_page -%}<li><a href="https://www.facebook.com/{{ site.facebook_page| cgi_escape | escape }}" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>{%- endif -%}
+      {%- if site.facebook_group -%}<li><a href="https://www.facebook.com/groups/{{ site.facebook_group| cgi_escape | escape }}" class="icon circle fa-group" target="_blank"><span class="label">Facebook Group</span></a></li>{%- endif -%}
+      {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="icon circle fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>{%- endif -%}
+    </ul>
+
+    <ul class="copyright">
+      <li>&copy; Northeastern University Chinese Student Association</li>
+      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+
+  </footer>
+
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.scrollgress.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>

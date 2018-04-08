@@ -13,31 +13,53 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Northeastern University Chinese Student Association (NUCSA)
+email: northeastern.csa@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  The Chinese Student Association of Northeastern University supports awareness of Chinese
+  and Chinese American culture. CSA strives to unite students interested in Chinese American
+  heritage and give their voices representation in the Northeastern University community.
+  Through general meetings and events, CSA will foster community, friendship and cultural awareness.
+  We invites people of all backgrounds to join CSA! Northeastern University Chinese Student Association.
+baseurl: "/csa" # the subpath of your site, e.g. /blog
+url: "http://www.northeastern.edu" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: nu_csa
+facebook_page: NUCSA
+facebook_group: northeasterncsa
+youtube_username: nucsatube
+image_dir: /csa/assets/images
+
+collections:
+  eboards:
+    output: true
+    permalink: /eboard/all/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: eboards
+    values:
+      title: Eboard
+      layout: eboard
+      icon_class: heart
+
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

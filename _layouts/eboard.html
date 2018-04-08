@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="index">
+
+    <div id="page-wrapper">
+      {% include header.html %}
+
+      <article id="main">
+
+        <header class="special container">
+          {%- if page.icon_class -%}<span class="icon fa-{{ page.icon_class }}"></span>{%- endif -%}
+          <h2>Executive Board {{ page.year }} - {{ page.year | plus: 1 }}</h2>
+        </header>
+
+        <section class="wrapper style4 container">
+
+          {% if page.video_url %}
+            <div class="row 150%">
+              <div class="4u 12u(narrower)">
+                <div class="sidebar">
+                  <span class="image featured logo">
+                    <img src="{% if page.video_image %}{{ site.image_dir }}/eboard/{{ page.year }}/{{ page.video_image }}{% else %}{{ site.image_dir }}/common/nucsa_logo.png{% endif %}" alt="{{ page.year }}">
+                  </span>
+                </div>
+              </div>
+              <div class="8u 12u(narrower)">
+                <!-- Content -->
+                  <div class="content">
+                    <section>
+                      <header>
+                        <center><h3>{{ page.video_description }}</h3><center>
+                      </header>
+                      <footer>
+                        <center>
+                          <ul class="buttons">
+                            <li><a href="{{ page.video_url }}" target="_blank" class="button small">Watch Video</a></li>
+                          </ul>
+                        </center>
+                      </footer>
+                    </section>
+                  </div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% for member in page.members %}
+            <div class="row 150%">
+              <div class="4u 12u(narrower)">
+                <div class="sidebar">
+                  <span class="image featured logo">
+                    <img src="{% if member.image %}{{ site.image_dir }}/eboard/{{ page.year }}/{{ member.image }}{% else %}{{ site.image_dir }}/common/nucsa_logo.png{% endif %}" alt="{{ member.name }}">
+                  </span>
+                  {% if member.facebook %}
+                    <footer>
+                      <ul class="buttons">
+                        <li><a href="https://www.facebook.com/{{ member.facebook }}" target="_blank" class="button small">Facebook</a></li>
+                      </ul>
+                    </footer>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="8u 12u(narrower)">
+                <!-- Content -->
+                  <div class="content">
+                    <section>
+                      <header>
+                        <center><h3>{{ member.position }}</h3><center>
+                      </header>
+                      <p>
+                        Name: {{ member.name }}<br>
+                        Major: {{ member.major }}<br>
+                        Year: {{ member.year }}<br>
+                        Bio: {% if member.bio %}{{ member.bio }}{% else %}N/A{% endif %}<br>
+                      </p>
+                    </section>
+                  </div>
+              </div>
+            </div>
+
+          {% endfor %}
+
+        </section>
+
+
+      </article>
+
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>

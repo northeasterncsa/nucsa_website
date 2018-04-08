@@ -1,0 +1,16 @@
+top_nav:
+  - page: Home
+    url: /csa/
+  - page: Mission
+    url: /csa/mission/
+  - title: Eboard
+    subfolderitems:
+      - page: Current
+        url: /csa/eboard/all/2017/
+      - page: All
+        url: /csa/eboard/all/
+  - page: Meetings
+    url: /csa/meetings/
+  - page: Contact
+    url: /csa/contact/
+    class: button special

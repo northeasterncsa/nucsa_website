@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="no-sidebar">
+
+    <div id="page-wrapper">
+      {% include header.html %}
+
+      <article id="main">
+
+        <header class="special container">
+          {%- if page.icon_class -%}<span class="icon fa-{{ page.icon_class }}"></span>{%- endif -%}
+          <h2>{{ page.title }}</h2>
+        </header>
+
+        <section class="wrapper style4 container">
+
+          <!-- Content -->
+            <div class="content">
+              <section>
+                {{ content }}
+              </section>
+            </div>
+
+        </section>
+
+
+      </article>
+
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>
