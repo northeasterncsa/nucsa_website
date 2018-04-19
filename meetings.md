@@ -4,8 +4,11 @@ title: Meetings
 permalink: /meetings/
 icon_class: map-marker
 ---
+<span class="image featured">
+![Curry Student Center]({{ site.image_dir }}/common/curry_student_center.jpg)
 
 ### Time & Location
+  
   - **Day**: Wednesday
   - **Time**: 6:00pm - 7:00pm
   - **Frequency**: Bi-weekly Meetings
