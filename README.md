@@ -35,8 +35,8 @@ This will run the website locally at [http://127.0.0.1:4000/csa/](http://127.0.0
 ```bash
 git clone git@github.com:northeasterncsa/nucsa_website.git
 cd nucsa_website
-./scripts/bootstrap  # Run only once, or whenever the Gemfile is edited
-./scripts/server
+./script/bootstrap  # Run only once, or whenever the Gemfile is edited
+./script/server
 ```
 
 
