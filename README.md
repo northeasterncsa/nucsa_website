@@ -169,12 +169,12 @@ Then edit `_data/site_nav.yml` and update the year for the current eboard. After
 Once you pushed your change to the GitHub repo's master branch, you are ready to deploy to the actual webservers
 hosting the public website. In most cases, the script below should do.
 ```bash
-./scripts/deploy
+./script/deploy
 ```
 
 Sometimes you need to wipe out the files on the server because you have changed the directory structure, need some files
 to be deleted, or other weirdness. You can run this script below, which will first wipe out the public webserver, then
 deploy the latest code.
 ```bash
-./scripts/clean_deploy
+./script/clean_deploy
 ```
