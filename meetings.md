@@ -5,7 +5,7 @@ permalink: /meetings/
 icon_class: map-marker
 ---
 <span class="image featured">
-![Curry Student Center]({{ site.image_dir }}/common/westvillage.jpg)
+![Curry Student Center]({{ site.image_dir }}/common/westvillagemed.jfif)
 
 ### Time & Location
   
