@@ -67,13 +67,13 @@
                   <div class="content">
                     <section>
                       <header>
-                        <center><h3>{{ member.position }}</h3><center>
+                        <center><h3 style = "font-size: 110%;"><u><b>{{ member.position }}</b></u></h3><center>
                       </header>
-                      <p>
-                        Name: {{ member.name }}<br>
-                        Major: {{ member.major }}<br>
-                        Year: {{ member.year }}<br>
-                        Bio: {% if member.bio %}{{ member.bio }}{% else %}N/A{% endif %}<br>
+                      <p style = "font-size: 105%;">
+                        <b>Name:</b> {{ member.name }}<br>
+                        <b>Major:</b> {{ member.major }}<br>
+                        <b>Year:</b> {{ member.year }}<br>
+                        <b>Bio:</b> {% if member.bio %}{{ member.bio }}{% else %}N/A{% endif %}<br>
                       </p>
                     </section>
                   </div>
