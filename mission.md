@@ -10,7 +10,7 @@ icon_class: lightbulb-o
 </span>
 
 ### <font size = 6> **A Brief History** </font>
-In 2012, a group of Northeastern freshmen were puzzled about why there were no student organizations for Chinese Americans. Chinese Americans were amoung the largest Asian American populations on campus, but there was no representation. They took the initiative to create the Chinese Student Association which would spread awareness of the rich Chinese and Chinese American culture.
+In 2012, a group of Northeastern freshmen were puzzled as to why there were no student organizations for Chinese Americans - though Chinese Americans were among the largest Asian American populations on campus, they lacked representation. These freshmen then took the initiative to create the Chinese Student Association, which would spread awareness of the rich Chinese and Chinese American culture and provide a community for the students interested in it.
 
 ### <font size = 6> **Our Purpose** </font><font size= 4>
   - **Unite** all students interested in the Chinese American identity.
