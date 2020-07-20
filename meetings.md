@@ -7,7 +7,7 @@ icon_class: map-marker
 <span class="image featured">
 ![West Village G]({{ site.image_dir }}/common/westvillagemed.jfif)
   
-<img src="{{site.image_dir}}/common/westvillagemed.jfif" alt="WVG" height="200px"/>
+<img src="{{site.image_dir}}/common/westvillagemed.jfif" alt="WVG" height="80%"/>
 
 ## Time & Location
   
