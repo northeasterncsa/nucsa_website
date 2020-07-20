@@ -8,6 +8,8 @@ icon_class: map-marker
 <style>
 .aligncenter {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
 
