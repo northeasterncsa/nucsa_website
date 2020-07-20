@@ -12,7 +12,7 @@
 
         <header class="special container">
           {%- if page.icon_class -%}<span class="icon fa-{{ page.icon_class }}"></span>{%- endif -%}
-          <h2>All Executive Boards</h2>
+          <h2 style = 'font-size:110%;'>All Executive Boards</h2>
         </header>
 
         <section class="wrapper style4 container">
@@ -23,8 +23,8 @@
                 <center>
                   <div id="quote" class="content">
                     <header>
-                      <h3><span class="icon fa-quote-left"></span>一步一个脚印儿<span class="icon fa-quote-right"></span></h3>
-                      <h3><span class="icon fa-quote-left"></span>Every step leaves its print<span class="icon fa-quote-right"></span></h3>
+                      <h3><span class="icon fa-quote-left"></span>『一步一个脚印儿』<span class="icon fa-quote-right"></span></h3>
+                      <h3><i>Every step leaves its print</i></h3>
                     </header>
                     <footer id="quoted" style="display:none;text-align:right;">
                       <p><i>Cung Tran, 2014</i></p>
@@ -59,7 +59,7 @@
                   <div class="content">
                     <section>
                       <header>
-                        <h3>{{ eboard.year }} - {{ eboard.year | plus: 1 }} Executive Board</h3>
+                        <h3><b>{{ eboard.year }} - {{ eboard.year | plus: 1 }} Executive Board</b></h3>
                       </header>
                       <p>
                         {% for member in eboard.members %}
