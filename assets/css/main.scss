@@ -855,7 +855,7 @@
 		background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../images/common/chinese_laterns.jpg');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, contain;
+		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
 		color: _palette(banner, fg);
 		cursor: default;
 		padding: 6em 0;
