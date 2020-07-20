@@ -9,10 +9,10 @@ icon_class: map-marker
 
 <h2><b>Time & Location</b></h2>
   
- <p style = 'font-size: 120%;'><b>Day:</b> Wednesday</p> 
- <p style = 'font-size: 120%;'><b>Time:</b> 6:00pm - 7:00pm</p> 
- <p style = 'font-size: 120%;'><b>Frequency:</b> Bi-weekly Meetings</p> 
- <p style = 'font-size: 120%;'><b>Location:</b> West Village G 108</p> 
+ <p style = 'font-size: 120%;'><b>Day:</b> Wednesday
+ <b>Time:</b> 6:00pm - 7:00pm
+ <b>Frequency:</b> Bi-weekly Meetings 
+ <br><b>Location:</b> West Village G 108</p> 
 
 <a href = 'https://calendar.google.com/calendar/r?cid=bm9ydGhlYXN0ZXJuLmNzYUBnbWFpbC5jb20&fbclid=IwAR3NlBeSMyZxN_xiCfknIKg-Qq8eY3vT3o4_Cs0k2hFkAiYbhbp_QN4bN3s' target = '_blank' style = 'font-size:120%;' >Click for a link to the CSA Events Calendar</a>
 
