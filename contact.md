@@ -6,10 +6,10 @@ icon_class: envelope
 ---
 
 <h3 style ='font-size:110%'><b>Email</b></h3>
-<span style="font-size:110%;">Feel free to email us at [{{ site.email }}](mailto:{{ site.email }})</span>
+<span style="font-size:120%;">Feel free to email us at [{{ site.email }}](mailto:{{ site.email }})</span>
 
 <h3 style ='font-size:110%'><b>Newsletter</b></h3>
-<p style="font-size:110%;">Follow our newsletter to keep informed of all the events we have going on! <a href='http://beesbeesbees.com/'>newsletter link</a></p>
+<span style="font-size:120%;">Follow our newsletter to keep informed of all the events we have going on @ [newsletter link]('http://beesbeesbees.com/') </span>
 
 <h3 style ='font-size:110%'><b>Social Media</b></h3>
 <p style = 'text-align:center'>
