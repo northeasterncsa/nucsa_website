@@ -5,7 +5,13 @@ permalink: /meetings/
 icon_class: map-marker
 ---
 
-<img src="{{site.image_dir}}/common/westvillagemed.jfif" alt="WVG" height="80%" style = "text-align: center" />
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+<img src="{{site.image_dir}}/common/westvillagemed.jfif" alt="WVG" height="80%" class = 'aligncenter' />
 
 <h2><b>Time & Location</b></h2>
   
