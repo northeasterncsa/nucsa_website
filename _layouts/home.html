@@ -62,9 +62,9 @@
                     {{ content }}
                     <p style = 'font-size:120%'><u>Gallery</u></p>
                     
-                    {% for i in range(2, 101, 11) %} 
+                    {% for i in [2, 13, 24, 35, 46, 57, 68, 79, 90] %} 
                     <main class="grid">               
-                      {% for counter in range(i,i+11) %} 
+                      {% for counter in range(i,(i+11)) %} 
                       <img src="/assets/images/gallery/image{{counter}}.jpg" alt="csaphoto{{counter}}">
                       {% endfor %}
                     </main>
