@@ -372,7 +372,34 @@
 					background: lighten(_palette(google-plus, bg), 4);
 				}
 			}
+	
+			&.fa-youtube-play {
+				background: _palette(youtube-play, bg);
+				color: _palette(youtube-play, fg);
 
+				&:hover {
+					background: lighten(_palette(youtube-play, bg), 4);
+				}
+			}
+
+			&.fa-instagram {
+				background: _palette(instagram, bg);
+				color: _palette(instagram, fg);
+
+				&:hover {
+					background: lighten(_palette(instagram, bg), 4);
+				}
+			}
+			
+			&.fa-tree {
+				background: _palette(tree, bg);
+				color: _palette(tree, fg);
+
+				&:hover {
+					background: lighten(_palette(tree, bg), 4);
+				}
+			}
+			
 			&.fa-google-plus {
 				background: _palette(google-plus, bg);
 				color: _palette(google-plus, fg);
@@ -828,7 +855,7 @@
 		background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../images/common/chinese_laterns.jpg');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, contain;
+		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
 		color: _palette(banner, fg);
 		cursor: default;
 		padding: 6em 0;
