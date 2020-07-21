@@ -17,7 +17,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
     align-items: start;
     justify-items: center;
     margin: auto;
-    width: 540px;
+    width: 90%;
     }
     .grid img {
     border: 1px solid rgba(0,0,0,0.3);
