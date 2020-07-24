@@ -7,3 +7,80 @@ permalink: /
 ## Welcome!
 
 We're happy to have you here at our lovely website. Make yourself at home :)
+
+<p style="font-size:120%"><u>Gallery</u></p>
+<style>
+    .rowgal {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .columngal {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .columngal img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+</style>
+<div class="rowgal">
+  <div class="columngal">
+<img src = 'assets/images/gallery/csaimage2.jpg' alt='img2'>
+<img src = 'assets/images/gallery/csaimage3.jpg' alt='img3'>
+<img src = 'assets/images/gallery/csaimage4.jpg' alt='img4'>
+<img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
+<img src = 'assets/images/gallery/csaimage6.jpg' alt='img6'>
+<img src = 'assets/images/gallery/csaimage7.jpg' alt='img7'>
+<img src = 'assets/images/gallery/csaimage8.jpg' alt='img8'>
+<img src = 'assets/images/gallery/csaimage9.jpg' alt='img9'>
+<img src = 'assets/images/gallery/csaimage10.jpg' alt='img10'>
+<img src = 'assets/images/gallery/csaimage11.jpg' alt='img11'>
+<img src = 'assets/images/gallery/csaimage12.jpg' alt='img12'>
+    </div>
+  <div class="columngal">
+<img src = 'assets/images/gallery/csaimage13.jpg' alt='img13'>
+<img src = 'assets/images/gallery/csaimage14.jpg' alt='img14'>
+<img src = 'assets/images/gallery/csaimage15.jpg' alt='img15'>
+<img src = 'assets/images/gallery/csaimage16.jpg' alt='img16'>
+<img src = 'assets/images/gallery/csaimage17.jpg' alt='img17'>
+<img src = 'assets/images/gallery/csaimage18.jpg' alt='img18'>
+<img src = 'assets/images/gallery/csaimage19.jpg' alt='img19'>
+<img src = 'assets/images/gallery/csaimage20.jpg' alt='img20'>
+<img src = 'assets/images/gallery/csaimage21.jpg' alt='img21'>
+<img src = 'assets/images/gallery/csaimage22.jpg' alt='img22'>
+<img src = 'assets/images/gallery/csaimage23.jpg' alt='img23'>
+    </div>
+  <div class="columngal">
+<img src = 'assets/images/gallery/csaimage13.jpg' alt='img13'>
+<img src = 'assets/images/gallery/csaimage14.jpg' alt='img14'>
+<img src = 'assets/images/gallery/csaimage15.jpg' alt='img15'>
+<img src = 'assets/images/gallery/csaimage16.jpg' alt='img16'>
+<img src = 'assets/images/gallery/csaimage17.jpg' alt='img17'>
+<img src = 'assets/images/gallery/csaimage18.jpg' alt='img18'>
+<img src = 'assets/images/gallery/csaimage19.jpg' alt='img19'>
+<img src = 'assets/images/gallery/csaimage20.jpg' alt='img20'>
+<img src = 'assets/images/gallery/csaimage21.jpg' alt='img21'>
+<img src = 'assets/images/gallery/csaimage22.jpg' alt='img22'>
+<img src = 'assets/images/gallery/csaimage23.jpg' alt='img23'>
+    </div>
+  <div class="columngal">
+<img src = 'assets/images/gallery/csaimage2.jpg' alt='img2'>
+<img src = 'assets/images/gallery/csaimage3.jpg' alt='img3'>
+<img src = 'assets/images/gallery/csaimage4.jpg' alt='img4'>
+<img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
+<img src = 'assets/images/gallery/csaimage6.jpg' alt='img6'>
+<img src = 'assets/images/gallery/csaimage7.jpg' alt='img7'>
+<img src = 'assets/images/gallery/csaimage8.jpg' alt='img8'>
+<img src = 'assets/images/gallery/csaimage9.jpg' alt='img9'>
+<img src = 'assets/images/gallery/csaimage10.jpg' alt='img10'>
+<img src = 'assets/images/gallery/csaimage11.jpg' alt='img11'>
+<img src = 'assets/images/gallery/csaimage12.jpg' alt='img12'>
+    </div>
+</div>
+
