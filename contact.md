@@ -19,6 +19,6 @@ Follow us on <a href = "https://www.instagram.com/nu_csa/" target="_blank">Insta
 <br>
 Join our <a href = "https://www.facebook.com/groups/northeasterncsa" target="_blank">NUCSA Community</a> and interact with us!
 <br>
-Subscribe to our<a href = "https://www.youtube.com/user/nucsatube" target="_blank">Youtube</a> and watch our fun videos!
+Subscribe to our <a href = "https://www.youtube.com/user/nucsatube" target="_blank">Youtube</a> and watch our fun videos!
 <br>
 Check out our <a href = "https://linktr.ee/nu_csa" target="_blank">LinkTree</a> to find resources on how you can help our community!</p>
