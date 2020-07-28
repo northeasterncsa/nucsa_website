@@ -5,14 +5,14 @@ permalink: /contact/
 icon_class: envelope
 ---
 
-<h3 style ='font-size:110%'><b>Email</b></h3>
+<h3 style ='font-size:120%'><b>Email</b></h3>
 <span style="font-size:120%;">Feel free to email us at [{{ site.email }}](mailto:{{ site.email }})</span>
 
-<h3 style ='font-size:110%'><b>Newsletter</b></h3>
-<p>Follow our newsletter to stay informed on all our events by clicking <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdDVUcWklx2t1b7g-Gtft5Jr-cUZP3bwWpJOuWOeHqC2EHmzQ/viewform?fbclid=IwAR1zu9mC5G0d-LtIFWgZP-fo2rJUxvFMVeSH2YnWmz8Q-JnFUboDxIogSSw">here </a>!</p>
+<h3 style ='font-size:120%'><b>Newsletter</b></h3>
+<p style ='font-size:110%'>Follow our newsletter to stay informed on all our events by clicking <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdDVUcWklx2t1b7g-Gtft5Jr-cUZP3bwWpJOuWOeHqC2EHmzQ/viewform?fbclid=IwAR1zu9mC5G0d-LtIFWgZP-fo2rJUxvFMVeSH2YnWmz8Q-JnFUboDxIogSSw">here </a>!</p>
 
-<h3 style ='font-size:110%'><b>Social Media</b></h3>
-<p>Like us on <a href = "https://www.facebook.com/NUCSA/" target="_blank">Facebook</a> to stay updated with us!
+<h3 style ='font-size:120%'><b>Social Media</b></h3>
+<p style ='font-size:110%'>Like us on <a href = "https://www.facebook.com/NUCSA/" target="_blank">Facebook</a> to stay updated with us!
 <br>
 Follow us on <a href = "https://www.instagram.com/nu_csa/" target="_blank">Instagram</a> for more content!
 <br>
