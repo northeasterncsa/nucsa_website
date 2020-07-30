@@ -46,7 +46,6 @@ GEM
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
-    libv8 (3.16.14.19-x86_64-linux)
     liquid (4.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -63,7 +62,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    ref (2.0.0)
     rouge (3.1.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -72,9 +70,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
 
@@ -86,7 +81,6 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-sitemap
   minima (~> 2.0)
-  therubyracer
   tzinfo-data
 
 BUNDLED WITH
