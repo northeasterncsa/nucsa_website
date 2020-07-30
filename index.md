@@ -41,7 +41,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
     }
 </style>
 <div class="rowgal">
-  <div class="columngaljagged">
+  <div class="columngal">
 <img src = 'assets/images/gallery/csaimage2.jpg' alt='img2'>
 <img src = 'assets/images/gallery/csaimage20.jpg' alt='img20'>
 <img src = 'assets/images/gallery/csaimage21.jpg' alt='img21'>
@@ -67,7 +67,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 <img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
 <img src = 'assets/images/gallery/csaimage23.jpg' alt='img23'>
     </div>
-  <div class="columngaljagged">
+  <div class="columngal">
 <img src = 'assets/images/gallery/csaimage24.jpg' alt='img13'>
 <img src = 'assets/images/gallery/csaimage25.jpg' alt='img14'>
 <img src = 'assets/images/gallery/csaimage26.jpg' alt='img15'>
