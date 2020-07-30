@@ -7,6 +7,10 @@ permalink: /
 ## Welcome!
 
 We're happy to have you here at our lovely website. Make yourself at home :)
+<p style = 'text-align:center'>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+</iframe>
+</p>
 
 <p style="font-size:120%"><u>Gallery</u></p>
 <style>
@@ -23,6 +27,12 @@ We're happy to have you here at our lovely website. Make yourself at home :)
       padding: 0 4px;
     }
 
+    .columngaljagged {
+      flex: 25%;
+      max-width: 25%;
+      padding: 10px 4px;
+    }
+
     .columngal img {
       margin-top: 8px;
       vertical-align: middle;
@@ -30,11 +40,11 @@ We're happy to have you here at our lovely website. Make yourself at home :)
     }
 </style>
 <div class="rowgal">
-  <div class="columngal">
+  <div class="columngaljagged">
 <img src = 'assets/images/gallery/csaimage2.jpg' alt='img2'>
-<img src = 'assets/images/gallery/csaimage3.jpg' alt='img3'>
-<img src = 'assets/images/gallery/csaimage4.jpg' alt='img4'>
-<img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
+<img src = 'assets/images/gallery/csaimage20.jpg' alt='img20'>
+<img src = 'assets/images/gallery/csaimage21.jpg' alt='img21'>
+<img src = 'assets/images/gallery/csaimage22.jpg' alt='img22'>
 <img src = 'assets/images/gallery/csaimage6.jpg' alt='img6'>
 <img src = 'assets/images/gallery/csaimage7.jpg' alt='img7'>
 <img src = 'assets/images/gallery/csaimage8.jpg' alt='img8'>
@@ -51,20 +61,20 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 <img src = 'assets/images/gallery/csaimage17.jpg' alt='img17'>
 <img src = 'assets/images/gallery/csaimage18.jpg' alt='img18'>
 <img src = 'assets/images/gallery/csaimage19.jpg' alt='img19'>
-<img src = 'assets/images/gallery/csaimage20.jpg' alt='img20'>
-<img src = 'assets/images/gallery/csaimage21.jpg' alt='img21'>
-<img src = 'assets/images/gallery/csaimage22.jpg' alt='img22'>
+<img src = 'assets/images/gallery/csaimage3.jpg' alt='img3'>
+<img src = 'assets/images/gallery/csaimage4.jpg' alt='img4'>
+<img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
 <img src = 'assets/images/gallery/csaimage23.jpg' alt='img23'>
     </div>
-  <div class="columngal">
+  <div class="columngaljagged">
 <img src = 'assets/images/gallery/csaimage24.jpg' alt='img13'>
 <img src = 'assets/images/gallery/csaimage25.jpg' alt='img14'>
 <img src = 'assets/images/gallery/csaimage26.jpg' alt='img15'>
 <img src = 'assets/images/gallery/csaimage27.jpg' alt='img16'>
 <img src = 'assets/images/gallery/csaimage28.jpg' alt='img17'>
-<img src = 'assets/images/gallery/csaimage29.jpg' alt='img18'>
-<img src = 'assets/images/gallery/csaimage30.jpg' alt='img19'>
-<img src = 'assets/images/gallery/csaimage31.jpg' alt='img20'>
+<img src = 'assets/images/gallery/csaimage41.jpg' alt='img8'>
+<img src = 'assets/images/gallery/csaimage42.jpg' alt='img9'>
+<img src = 'assets/images/gallery/csaimage43.jpg' alt='img10'>
 <img src = 'assets/images/gallery/csaimage32.jpg' alt='img21'>
 <img src = 'assets/images/gallery/csaimage33.jpg' alt='img22'>
 <img src = 'assets/images/gallery/csaimage34.jpg' alt='img23'>
@@ -75,12 +85,11 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 <img src = 'assets/images/gallery/csaimage37.jpg' alt='img4'>
 <img src = 'assets/images/gallery/csaimage38.jpg' alt='img5'>
 <img src = 'assets/images/gallery/csaimage39.jpg' alt='img6'>
+<img src = 'assets/images/gallery/csaimage29.jpg' alt='img18'>
+<img src = 'assets/images/gallery/csaimage30.jpg' alt='img19'>
+<img src = 'assets/images/gallery/csaimage31.jpg' alt='img20'>
 <img src = 'assets/images/gallery/csaimage40.jpg' alt='img7'>
-<img src = 'assets/images/gallery/csaimage41.jpg' alt='img8'>
-<img src = 'assets/images/gallery/csaimage42.jpg' alt='img9'>
-<img src = 'assets/images/gallery/csaimage43.jpg' alt='img10'>
 <img src = 'assets/images/gallery/csaimage44.jpg' alt='img11'>
 <img src = 'assets/images/gallery/csaimage45.jpg' alt='img12'>
     </div>
 </div>
-
