@@ -39,6 +39,7 @@ Run these commands in your command prompt:
 - bundle config build.libv8 --with-system-v8
 - bundle config build.therubyracer --with-v8-dir=$(brew --prefix v8@3.15)
 - bundle install
+
 And within nucsa_website/Gemfile, and this line at the very end of the script: gem 'therubyracer', :platform => :ruby
 
 
