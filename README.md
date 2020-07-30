@@ -28,7 +28,11 @@ sudo yum update && sudo yum install ruby
 
 gem install jekyll bundler
 ```
+### FOR WINDOWS USERS: Install a Virtual Machine to do this (recommend Oracle VM VirtualBox)
 
+### If you encounter errors trying to install these packages 
+#### "You don't have write permissions for the /var/lib/gems/2.3.0 directory":
+Check this link (https://stackoverflow.com/questions/37720892/you-dont-have-write-permissions-for-the-var-lib-gems-2-3-0-directory) 
 
 # Quick Start
 This will run the website locally at [http://127.0.0.1:4000/csa/](http://127.0.0.1:4000/csa/)
