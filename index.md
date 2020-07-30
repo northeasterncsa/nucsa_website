@@ -30,7 +30,8 @@ We're happy to have you here at our lovely website. Make yourself at home :)
     .columngaljagged {
       flex: 25%;
       max-width: 25%;
-      padding: 10px 4px;
+      padding: 0 4px;
+      margin-top: 2px;
     }
 
     .columngal img {
