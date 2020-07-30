@@ -3,9 +3,9 @@
 
     <ul class="icons">
       {%- if site.facebook_page -%}<li><a href="https://www.facebook.com/{{ site.facebook_page| cgi_escape | escape }}" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>{%- endif -%}
+      {%- if site.facebook_group -%}<li><a href="https://www.facebook.com/groups/{{ site.facebook_group| cgi_escape | escape }}" class="icon circle fa-group" target="_blank"><span class="label">Facebook Group</span></a></li>{%- endif -%}
       <li><a href="https://www.instagram.com/nu_csa/" class="icon circle fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
       <li><a href="https://linktr.ee/nu_csa" class="icon circle fa-tree" target="_blank"><span class="label">LinkTree</span></a></li>
-      {%- if site.facebook_group -%}<li><a href="https://www.facebook.com/groups/{{ site.facebook_group| cgi_escape | escape }}" class="icon circle fa-group" target="_blank"><span class="label">Facebook Group</span></a></li>{%- endif -%}
       {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="icon circle fa-youtube-play" target="_blank"><span class="label">Youtube</span></a></li>{%- endif -%}
     </ul>
     
