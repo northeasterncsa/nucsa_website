@@ -12,7 +12,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 </iframe>
 </p>
 
-<p style="font-size:120%">GALLERY</p>
+## GALLERY
 <style>
     .rowgal {
       display: flex;
@@ -63,7 +63,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 <img src = 'assets/images/gallery/csaimage18.jpg' alt='img18'>
 <img src = 'assets/images/gallery/csaimage19.jpg' alt='img19'>
 <img src = 'assets/images/gallery/csaimage3.jpg' alt='img3'>
-<img src = 'assets/images/gallery/csaimage4.jpg' alt='img4'>
+<img src = 'assets/images/gallery/csaimage60.jpg' alt='img60'>
 <img src = 'assets/images/gallery/csaimage5.jpg' alt='img5'>
 <img src = 'assets/images/gallery/csaimage23.jpg' alt='img23'>
     </div>
@@ -75,7 +75,7 @@ We're happy to have you here at our lovely website. Make yourself at home :)
 <img src = 'assets/images/gallery/csaimage28.jpg' alt='img17'>
 <img src = 'assets/images/gallery/csaimage41.jpg' alt='img8'>
 <img src = 'assets/images/gallery/csaimage42.jpg' alt='img9'>
-<img src = 'assets/images/gallery/csaimage43.jpg' alt='img10'>
+<img src = 'assets/images/gallery/csaimage50.jpg' alt='img50'>
 <img src = 'assets/images/gallery/csaimage32.jpg' alt='img21'>
 <img src = 'assets/images/gallery/csaimage33.jpg' alt='img22'>
 <img src = 'assets/images/gallery/csaimage34.jpg' alt='img23'>
