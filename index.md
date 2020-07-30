@@ -8,7 +8,7 @@ permalink: /
 
 We're happy to have you here at our lovely website. Make yourself at home :)
 <p style = 'text-align:center'>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X-VfTZnJU6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </p>
 
