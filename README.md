@@ -31,8 +31,16 @@ gem install jekyll bundler
 ### FOR WINDOWS USERS: Install a Virtual Machine to do this (recommend Oracle VM VirtualBox)
 
 ### If you encounter errors trying to install these packages 
-#### "You don't have write permissions for the /var/lib/gems/2.3.0 directory":
+#### - "You don't have write permissions for the /var/lib/gems/2.3.0 directory":
 Check this link (https://stackoverflow.com/questions/37720892/you-dont-have-write-permissions-for-the-var-lib-gems-2-3-0-directory) 
+#### - "Bundler::GemRequireError: There was an error while trying to load the gem 'jekyll-minifier'. Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes"
+Run these commands in your command prompt:
+- brew install v8@3.15
+- bundle config build.libv8 --with-system-v8
+- bundle config build.therubyracer --with-v8-dir=$(brew --prefix v8@3.15)
+- bundle install
+And within nucsa_website/Gemfile, and this line at the very end of the script: gem 'therubyracer', :platform => :ruby
+
 
 # Quick Start
 This will run the website locally at [http://127.0.0.1:4000/csa/](http://127.0.0.1:4000/csa/)
