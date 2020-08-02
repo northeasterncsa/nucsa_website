@@ -4,11 +4,9 @@ title: Mission
 permalink: /mission/
 icon_class: lightbulb-o
 ---
-
-<span class="image featured">
-<img src="/images/common/chinatown3.jpg" width=80% height=80% alt="chinatown">
-![Curry Student Center]({{ site.image_dir }}/common/chinatown3.jpg)
-</span>
+<p style = 'text-align:center'>
+<img src="{{ site.image_dir }}/common/chinatown3.jpg" width=50% alt="chinatown">
+</p>
 
 ### <a style='font-size:130%;'> **A Brief History** </a>
 
