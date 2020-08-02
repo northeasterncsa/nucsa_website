@@ -6,6 +6,7 @@ icon_class: lightbulb-o
 ---
 
 <span class="image featured">
+<img src="/images/common/chinatown3.jpg" width=80% height=80% alt="chinatown">
 ![Curry Student Center]({{ site.image_dir }}/common/chinatown3.jpg)
 </span>
 
