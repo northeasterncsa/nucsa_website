@@ -5,7 +5,7 @@ permalink: /contact/
 icon_class: envelope
 ---
 <p style = 'text-align: center'>
-<img src="{{ site.image_dir }}/common/csalogo2020-21.png" width="90%" height="90%" alt="csalogo">
+<img src="{{ site.image_dir }}/common/csalogo2020-21.png" width="50%" alt="csalogo">
 </p>
 <h3 style ='font-size:120%'><b>Email</b></h3>
 <span style="font-size:120%;">Feel free to email us at [{{ site.email }}](mailto:{{ site.email }})</span>
