@@ -4,8 +4,8 @@ title: Mission
 permalink: /mission/
 icon_class: lightbulb-o
 ---
-<p style = 'text-align:center'>
-<img src="{{ site.image_dir }}/common/chinatown3.jpg" width=50% alt="chinatown">
+<p style = 'text-align: center'>
+<img src="{{ site.image_dir }}/common/chinatown3.jpg" width="40%" alt="chinatown">
 </p>
 
 ### <a style='font-size:130%;'> **A Brief History** </a>
