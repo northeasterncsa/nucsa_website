@@ -6,7 +6,7 @@ icon_class: lightbulb-o
 ---
 
 <span class="image featured">
-![Curry Student Center]({{ site.image_dir }}/common/red.jpg)
+![Curry Student Center]({{ site.image_dir }}/common/chinatown3.jpg)
 </span>
 
 ### <a style='font-size:130%;'> **A Brief History** </a>
