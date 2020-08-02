@@ -5,14 +5,12 @@ permalink: /mission/
 icon_class: lightbulb-o
 ---
 <p style = 'text-align: center'>
-<img src="{{ site.image_dir }}/common/chinatown3.jpg" width="60%" alt="chinatown">
+<img src="{{ site.image_dir }}/common/chinatown3.jpg" width="55%" alt="chinatown">
 </p>
 
 ### <a style='font-size:130%;'> **A Brief History** </a>
 
 <p style='font-size:110%;'> In 2012, a group of Northeastern freshmen were puzzled as to why there were no student organizations for Chinese Americans - though Chinese Americans were among the largest Asian American populations on campus, they lacked representation. These freshmen then took the initiative to create the Chinese Student Association, which would spread awareness of the rich Chinese and Chinese American culture and provide a community for the students interested in it. </p>
-
-<br>
 
 ### <a style='font-size:120%;'> **Our Purpose** </a>
 <p style='font-size:110%;'>
