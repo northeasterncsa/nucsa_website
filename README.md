@@ -178,6 +178,7 @@ down them down to a realistic size for modern computers to show at 100%
 Then edit `_data/site_nav.yml` and update the year for the current eboard. After saving everything, you should be all done!
 
 # Deployment
+Note: If you are editing off campus, you must be connected to the Northeastern VPN.
 
 Once you pushed your change to the GitHub repo's master branch, you are ready to deploy to the actual webservers
 hosting the public website. In most cases, the script below should do.
