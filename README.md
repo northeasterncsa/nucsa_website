@@ -7,6 +7,9 @@ We know, maintaining organizational websites isn't always easy, especially when 
 
 # Requirements
 This project is built with [Jekyll](https://jekyllrb.com/), a static site generator.
+
+### FOR WINDOWS USERS: Install a Virtual Machine to do this (recommend Oracle VM VirtualBox)
+
 ### Mac
 First install [Brew](https://brew.sh/)
 ```bash
@@ -28,7 +31,6 @@ sudo yum update && sudo yum install ruby
 
 gem install jekyll bundler
 ```
-### FOR WINDOWS USERS: Install a Virtual Machine to do this (recommend Oracle VM VirtualBox)
 
 ### If you encounter errors trying to install these packages 
 #### - "You don't have write permissions for the /var/lib/gems/2.3.0 directory":
