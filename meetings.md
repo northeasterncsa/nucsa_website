@@ -16,7 +16,7 @@ icon_class: map-marker
  <br>
  <b>Frequency:</b> Bi-weekly Meetings 
  <br>
-  <b>Location:</b> <a href = "https://northeastern.zoom.us/j/91744635185">https://northeastern.zoom.us/j/91744635185</a>
+  <b>Location:</b> <a href = "https://northeastern.zoom.us/j/91744635185" target = "_blank">https://northeastern.zoom.us/j/91744635185</a>
  </p> 
 
 <a href = 'https://calendar.google.com/calendar/r?cid=bm9ydGhlYXN0ZXJuLmNzYUBnbWFpbC5jb20&fbclid=IwAR3NlBeSMyZxN_xiCfknIKg-Qq8eY3vT3o4_Cs0k2hFkAiYbhbp_QN4bN3s' target = '_blank' style = 'font-size:120%;' >Click for a link to the CSA Events Calendar</a>
