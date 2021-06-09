@@ -1,5 +1,10 @@
 # NUCSA
 
+# CSA GITHUB RETIRED (6/8/21)
+# Please go to https://csa.sites.northeastern.edu/wp-admin/ to edit and update website.
+Instructions to edit: https://docs.google.com/document/d/1C--GWXMUiwBY1cttdwv8s6aSyavGHPuFbnNOlNxE3iU/edit?usp=sharing
+#
+
 Hey Eboard!
 
 We know, maintaining organizational websites isn't always easy, especially when passing down old code year after year. Hopefully this repo will help  ease that pain for a few more years. This project will allow you to generate static website files and deploy them to the school's webserver. Adding or editing new pages is as simple as editing markdown files. Adding a new eboard just involves adding a new file. And hopefully when a new person comes along who can code, they can change the theme and layouts with ease.
